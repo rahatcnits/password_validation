@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #4285f4;
+}
+
+.wrapper {
+  width: 450px;
+  background-color: #fff;
+  padding: 28px;
+  border-radius: 7px;
+}
+
+.wrapper .pass_feild {
+  height: 65px;
+  width: 100%;
+  position: relative;
+}
+
+.pass_feild input {
+  width: 100%;
+  height: 100%;
+  padding: 0 17px;
+  font-size: 1.3rem;
+  border: 1px solid #999;
+  outline: none;
+  border-radius: 5px;
+}
+
+.pass_feild i {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  font-size: 1.2rem;
+  color: #999;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.wrapper .content {
+  margin: 20px 0 10px;
+}
+
+.content p {
+  font-size: 1.3rem;
+}
+
+.content .requirement_list {
+  margin-top: 20px;
+}
+
+.requirement_list li {
+  list-style: none;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.requirement_list li i {
+  font-size: 0.6rem;
+  color: #aaa;
+  width: 20px;
+}
+
+.requirement_list li.valid i {
+  font-size: 1.2rem;
+  color: #4285f4;
+}
+
+.requirement_list li span {
+  margin-left: 12px;
+}
+
+.requirement_list li.valid span {
+  color: #999;
+}
